@@ -1,7 +1,7 @@
 
 #define IBUS_BUFFER_SIZE 32
 static uint8_t buffer[IBUS_BUFFER_SIZE];
-int ch1, ch2, ch3, ch4, ch5, ch6 = 0;
+uint16_t ch1, ch2, ch3, ch4, ch5, ch6 = 0;
 static uint8_t bufferIndex = 0;
 uint16_t checksum = 0;
 
